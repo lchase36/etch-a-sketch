@@ -1,0 +1,16 @@
+body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	height: 400px;
+	width: 400px;
+	border: 2px solid rgb(31, 31, 31);
+	display: grid;
+	grid-template-columns: repeat(3, 33.3333%);
+	grid-template-rows: repeat(3, 33.3333%);
+}
